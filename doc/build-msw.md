@@ -101,8 +101,8 @@ From DOS prompt configured for MingW :<br>
 (c:\msys64\win32\config32.bat must be executed before using c:\msys64\win32env.bat as DOS prompt)
 
 	cd c:\deps\boost_1_58_0
-	bootstrap.bat mingw
-	b2 --build-type=complete --with-chrono --with-filesystem --with-program_options --with-system --with-thread toolset=gcc variant=release link=static threading=multi runtime-link=static stage
+	./bootstrap.bat mingw
+	./b2 --build-type=complete --with-chrono --with-filesystem --with-program_options --with-system --with-thread toolset=gcc variant=release link=static threading=multi runtime-link=static stage
 
 Build MiniUPnPc
 ---------
